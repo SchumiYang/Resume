@@ -1,0 +1,211 @@
+@media screen and (max-width:800px) {
+
+    nav li, .nav_name {
+        font-size: 15px;
+    }
+
+    nav li {
+        width: 78px;
+    }
+
+    nav a {
+        padding: 0px 5px;
+    }
+
+    .nav_mid {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .img_me {
+        width: 150px;;
+    }
+
+    .eng_name {
+        font-size: 30px;
+    }
+
+    .aboutme_p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pro_tit {
+        padding: 5px;
+    }
+
+    .pro_lr {
+        flex-direction: column;
+    }
+
+    .prof_a_f {
+        display: flex;
+        justify-self: center;
+        padding: 3px;
+    }
+
+    .prof_a p {
+        font-size: 0;
+        padding: 0;
+    }
+
+    .icon {
+        width: 35px;
+    }
+
+    .ski_sub {
+        flex-direction: column;
+    }
+
+    .bar_bac {
+        width: 200px;
+        height: 10px;
+    }
+
+    .bar_tit p {
+        font-size: 15px;
+    }
+
+    .ski_bar {
+        margin: 5px;
+    }
+
+    .ski_bar h1 {
+        font-size: 20px;
+        height: 18px;
+    }
+
+    .pro_tit.exp p {
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    .exp_line {
+        height: 100px;
+    }
+
+    .exp_line.portf{
+        height: 70px;
+    }
+    
+    .exp_point, .exp_point img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon_bar.exp1 {
+        width: 10px;
+        height: 10px;
+    }
+
+    .exp_lab {
+        border-radius: 0px 0px 10px 0px;
+        width: auto;
+        font-size: 20px;
+    }
+
+    .exp_img {
+        width: 125px;
+    }
+
+    .exp_text {
+        width: 100px;
+        height: 100px;
+    }
+
+    .exp_text h6, .exp_text a {
+        margin: 2px 0px;
+    }
+
+    .exp_text.portf {
+        width: 125px;
+        height: 73px;
+    }
+
+    .exp_text h4, .exp_text h6 {
+        font-size: 0px;
+        margin: 0px;
+    }
+
+    .exp_text h5 {
+        font-size: 15px;
+    }
+
+    .exp_text a {
+        font-size: 12px;
+    }
+
+    .exp_text.work h4 {
+        font-size: 13px;
+        margin: 1px 0px;
+    }
+
+    .exp_img, .exp_text {
+        margin: 8px 15px;
+    }
+
+    .slogan h1 {
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .exp_line {
+        height: 85px;
+    }
+
+    .exp_line.portf {
+        height: 65px;
+    }
+
+    .exp_lab {
+        border-radius: 0px 0px 10px 0px;
+        width: auto;
+        font-size: 25px;
+    }
+
+    .exp_img {
+        width: 125px;
+    }
+
+    .exp_point, .exp_point img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .exp_text {
+        width: 250px;
+        height: 100px;
+    }
+
+    .exp_text h5 {
+        font-size: 15px;
+    }
+
+    .exp_text p {
+        font-size: 10px;
+    }
+
+    .exp_text h4 {
+        font-size: 13px;
+    }
+
+    .exp_text h6 {
+        font-size: 0px;
+        margin: 0px;
+    }
+
+    .exp_text.portf {
+        height: 73px;
+    }
+
+    .exp_img, .exp_text {
+        margin: 8px 15px;
+    }
+}
